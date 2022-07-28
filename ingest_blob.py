@@ -4,7 +4,7 @@ from azure.storage.blob import BlobServiceClient, BlobClient, ContentSettings, C
  
 # IMPORTANT: Replace connection string with your storage account connection string
 # Usually starts with DefaultEndpointsProtocol=https;...
-MY_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=aztestblobsc;AccountKey=P9NLFDwvbiJSpVxQRXcyH+GvfZ3Tvs7dxuoAe2DXlq65JdimA2SUU4GeRIzOBH4J6VTscXoghDgA+AStRov+IQ==;EndpointSuffix=core.windows.net"
+MY_CONNECTION_STRING = "CHANGEME"
  
 # Replace with blob container. This should be already created in azure storage.
 MY_EVENTS_CONTAINER = "default/events"
